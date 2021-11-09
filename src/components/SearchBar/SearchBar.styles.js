@@ -36,7 +36,7 @@ export const Content = styled.div`
     border: 0;
     background: transparent;
     color: var(--white);
-    font-size: 28px;
+    font-size: var(--fontBig);
 
     :focus {
       outline: none;
