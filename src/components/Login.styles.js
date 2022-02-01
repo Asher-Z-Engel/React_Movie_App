@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 320px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 20px;
   color: var(--darkGrey);
@@ -13,9 +13,10 @@ export const Wrapper = styled.div`
   input {
     width: 100%;
     height: 30px;
+    border: 1px solid var(--darkGrey);
     border-radius: 20px;
     padding: 10px;
-    margin-top: 20px;
+    margin: 10px 0;
     color: var(--darkGrey);
   }
 
